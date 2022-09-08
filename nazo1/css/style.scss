@@ -14,10 +14,12 @@ body {
     margin: 0;
     text-align: center;
     .pw_text {
+        width: 5em;
         margin: 100px auto 0px;
         font-size: 120px;
         color: #fff;
         letter-spacing: .6em;
+        border-bottom: solid 5px #20DFFF;
     }
 }
 

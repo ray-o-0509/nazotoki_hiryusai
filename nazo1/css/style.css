@@ -3,6 +3,11 @@
   src: url("../../fonts/postnobillscolombo-extrabold.ttf");
 }
 
+html {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
 body {
   background-color: #333;
   font-family: 'postnobillscolomboExtrabold';
@@ -12,10 +17,12 @@ body {
 }
 
 body .pw_text {
+  width: 5em;
   margin: 100px auto 0px;
   font-size: 120px;
   color: #fff;
   letter-spacing: .6em;
+  border-bottom: solid 5px #20DFFF;
 }
 
 table {
