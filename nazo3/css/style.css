@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'postnobillscolomboExtrabold';
+  src: url("../../fonts/postnobillscolombo-extrabold.ttf");
+}
+
+html {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
+body {
+  background-color: #333;
+  font-family: 'postnobillscolomboExtrabold';
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+body .pw_text {
+  width: 5em;
+  margin: 100px 160px 0px;
+  font-size: 90px;
+  color: #fff;
+  letter-spacing: .6em;
+  border-bottom: solid 5px #20DFFF;
+}
+
+table {
+  margin: 50px auto;
+}
+
+table tr td {
+  background-color: white;
+  color: #333;
+  font-size: 80px;
+  text-align: center;
+  padding: 15px;
+  min-width: 150px;
+}
+
+table,
+td,
+th {
+  border: 5px #333 solid;
+}
+
+.not_shown {
+  background-color: #333;
+  letter-spacing: .2;
+  color: white;
+}
+
+.correct_div,
+.wrong_div {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
