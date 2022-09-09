@@ -17,8 +17,8 @@ body {
 }
 
 body .pw_text {
-  width: 5em;
-  margin: 100px 160px 0px;
+  width: 8em;
+  margin: 100px auto 0px;
   font-size: 90px;
   color: #fff;
   letter-spacing: .6em;
@@ -34,7 +34,7 @@ table tr td {
   color: #333;
   font-size: 80px;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   min-width: 150px;
 }
 
